@@ -1,0 +1,52 @@
+[
+  {
+    "feature": "numeric__tenure",
+    "coefficient": -1.3892723428087141,
+    "direction": "decreases_churn_risk"
+  },
+  {
+    "feature": "categorical__Contract_Two year",
+    "coefficient": -0.8034594848766822,
+    "direction": "decreases_churn_risk"
+  },
+  {
+    "feature": "categorical__Contract_Month-to-month",
+    "coefficient": 0.6403398758303217,
+    "direction": "increases_churn_risk"
+  },
+  {
+    "feature": "categorical__InternetService_Fiber optic",
+    "coefficient": 0.534493433758381,
+    "direction": "increases_churn_risk"
+  },
+  {
+    "feature": "numeric__TotalCharges",
+    "coefficient": 0.5119580007729518,
+    "direction": "increases_churn_risk"
+  },
+  {
+    "feature": "categorical__InternetService_DSL",
+    "coefficient": -0.5055554367934059,
+    "direction": "decreases_churn_risk"
+  },
+  {
+    "feature": "binary__has_support_services",
+    "coefficient": -0.497106534711321,
+    "direction": "decreases_churn_risk"
+  },
+  {
+    "feature": "categorical__tenure_group_13-24",
+    "coefficient": -0.4154760705439822,
+    "direction": "decreases_churn_risk"
+  },
+  {
+    "feature": "binary__PaperlessBilling",
+    "coefficient": 0.3674532729288539,
+    "direction": "increases_churn_risk"
+  },
+  {
+    "feature": "categorical__tenure_group_49-72",
+    "coefficient": 0.345378013389087,
+    "direction": "increases_churn_risk"
+  }
+]

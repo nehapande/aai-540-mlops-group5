@@ -1,0 +1,76 @@
+{
+  "logistic_regression": {
+    "auc_roc": 0.8426363425388721,
+    "f1": 0.6235955056179775,
+    "precision": 0.511520737327189,
+    "recall": 0.7985611510791367,
+    "confusion_matrix": [
+      [
+        563,
+        212
+      ],
+      [
+        56,
+        222
+      ]
+    ],
+    "train_seconds": 0.14
+  },
+  "random_forest": {
+    "auc_roc": 0.8290438616848457,
+    "f1": 0.5633270321361059,
+    "precision": 0.5936254980079682,
+    "recall": 0.5359712230215827,
+    "confusion_matrix": [
+      [
+        673,
+        102
+      ],
+      [
+        129,
+        149
+      ]
+    ],
+    "train_seconds": 110.27,
+    "best_params": {
+      "max_depth": 20,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 200
+    }
+  },
+  "xgboost": {
+    "auc_roc": 0.8223532142028314,
+    "f1": 0.5882352941176471,
+    "precision": 0.5064935064935064,
+    "recall": 0.7014388489208633,
+    "confusion_matrix": [
+      [
+        585,
+        190
+      ],
+      [
+        83,
+        195
+      ]
+    ],
+    "train_seconds": 1.04
+  },
+  "selected_model": "logistic_regression",
+  "test_set_metrics": {
+    "auc_roc": 0.8548548965198288,
+    "f1": 0.6298342541436464,
+    "precision": 0.5123595505617977,
+    "recall": 0.8172043010752689,
+    "confusion_matrix": [
+      [
+        558,
+        217
+      ],
+      [
+        51,
+        228
+      ]
+    ]
+  }
+}
